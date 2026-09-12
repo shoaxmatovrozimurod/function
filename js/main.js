@@ -50,14 +50,24 @@
 // check();
 
 
-let a = +prompt("a tomonni kirit");
-let b = +prompt("b tomonni kirit");
+// let a = +prompt("a tomonni kirit");
+// let b = +prompt("b tomonni kirit");
 
 
-function rectangle (a, b ){
-    let S = a * b;
-    let P = (a + b) * 2;
+// function rectangle (a, b ){
+//     let S = a * b;
+//     let P = (a + b) * 2;
 
-    alert("Yuzi:" +S+ "\nPeremetri:" +P)
+//     alert("Yuzi:" +S+ "\nPeremetri:" +P)
+// }
+// rectangle(a, b);
+
+
+let a = +prompt("teng tomonli uchburchakni tomonini kirit");
+
+let triangle = function (a){
+    let P = 3*a;
+    let S = (a*a)/2;
+    alert("Peremetri:" + P+"\nYuzi:" + S);    
 }
-rectangle(a, b);
+triangle(a);
