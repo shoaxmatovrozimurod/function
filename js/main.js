@@ -1,14 +1,29 @@
+// let a = +prompt("Hozirgi yilni kirit");
+// let b = +prompt("tug'ulgan yilingizni kiriting");
+
+// function check (){
+
+//    let yosh = a - b;
+
+//     if (yosh >= 18){
+//         alert("Armiyaga go");
+//     }else{
+//         alert("Siz yoshsiz");
+//     }
+// }
+// check ()
+
 let a = +prompt("Hozirgi yilni kirit");
 let b = +prompt("tug'ulgan yilingizni kiriting");
 
-function check (){
-
-   let yosh = a - b;
+let check = function(a, b){
+    let yosh = a - b;
 
     if (yosh >= 18){
-        alert("Armiyaga go");
+        alert (" Armiyaga goo");
     }else{
-        alert("Siz yoshsiz");
+        alert("yoshsiz");
     }
+
 }
-check ()
+check(a, b)
