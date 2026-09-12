@@ -75,11 +75,22 @@
 
 
 
-let a = +prompt("a sonni kiriting");
-let n = +prompt("a ni n-darajasini kiriting");
+// let a = +prompt("a sonni kiriting");
+// let n = +prompt("a ni n-darajasini kiriting");
 
-let power = (a, n) =>{
-   let an = Math.pow(a,n);
-   alert("a ning n-darajasi:" + an  + "ga teng" );
+// let power = (a, n) =>{
+//    let an = Math.pow(a,n);
+//    alert("a ning n-darajasi:" + an  + "ga teng" );
+// }
+// power(a, n);
+
+
+let a = +prompt("a ni kirit");
+let b = +prompt("b ni kirit");
+
+function mean (a, b){
+    let oa = (a * b)/ 2;
+    let og = (Math.sqrt(a+b));
+    alert("o'rta arifmetigi:" +oa+ "\n o'rta geometirigi:" + og.toFixed(2));
 }
-power(a, n);
+mean(a, b);
