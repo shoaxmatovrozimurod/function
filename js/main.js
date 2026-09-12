@@ -85,12 +85,26 @@
 // power(a, n);
 
 
-let a = +prompt("a ni kirit");
-let b = +prompt("b ni kirit");
+// let a = +prompt("a ni kirit");
+// let b = +prompt("b ni kirit");
 
-function mean (a, b){
-    let oa = (a * b)/ 2;
-    let og = (Math.sqrt(a+b));
-    alert("o'rta arifmetigi:" +oa+ "\n o'rta geometirigi:" + og.toFixed(2));
+// function mean (a, b){
+//     let oa = (a * b)/ 2;
+//     let og = (Math.sqrt(a+b));
+//     alert("o'rta arifmetigi:" +oa+ "\n o'rta geometirigi:" + og.toFixed(2));
+// }
+// mean(a, b);
+
+
+let n = +prompt("n sonni kirit");
+
+let sign = function (){
+    if(n > 0){
+        alert("1");
+    }else if (n < 0) {
+        alert("-1");
+    }else{
+        alert("0")
+    }
 }
-mean(a, b);
+sign()
