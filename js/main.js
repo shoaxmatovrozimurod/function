@@ -13,6 +13,8 @@
 // }
 // check ()
 
+
+
 // let a = +prompt("Hozirgi yilni kirit");
 // let b = +prompt("tug'ulgan yilingizni kiriting");
 
@@ -31,20 +33,31 @@
 
 
 
-let a = +prompt("Hozirgi yilni kirit");
-let b = +prompt("tug'ulgan yilingizni kiriting");
+// let a = +prompt("Hozirgi yilni kirit");
+// let b = +prompt("tug'ulgan yilingizni kiriting");
 
 
-let check = () =>{
-    let yosh = a - b;
+// let check = () =>{
+//     let yosh = a - b;
 
-    if(yosh >= 18){
-        alert("armiyaga goo");
-    }else{
-        alert("siz yoshsiz")
-    }
+//     if(yosh >= 18){
+//         alert("armiyaga goo");
+//     }else{
+//         alert("siz yoshsiz")
+//     }
+// }
+
+// check();
+
+
+let a = +prompt("a tomonni kirit");
+let b = +prompt("b tomonni kirit");
+
+
+function rectangle (a, b ){
+    let S = a * b;
+    let P = (a + b) * 2;
+
+    alert("Yuzi:" +S+ "\nPeremetri:" +P)
 }
-
-check();
-
-
+rectangle(a, b);
