@@ -63,11 +63,23 @@
 // rectangle(a, b);
 
 
-let a = +prompt("teng tomonli uchburchakni tomonini kirit");
+// let a = +prompt("teng tomonli uchburchakni tomonini kirit");
 
-let triangle = function (a){
-    let P = 3*a;
-    let S = (a*a)/2;
-    alert("Peremetri:" + P+"\nYuzi:" + S);    
+// let triangle = function (a){
+//     let P = 3*a;
+//     let S = (a*a)/2;
+//     alert("Peremetri:" + P+"\nYuzi:" + S);    
+// }
+// triangle(a);
+
+
+
+
+let a = +prompt("a sonni kiriting");
+let n = +prompt("a ni n-darajasini kiriting");
+
+let power = (a, n) =>{
+   let an = Math.pow(a,n);
+   alert("a ning n-darajasi:" + an  + "ga teng" );
 }
-triangle(a);
+power(a, n);
