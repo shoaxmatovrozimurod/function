@@ -96,15 +96,22 @@
 // mean(a, b);
 
 
-let n = +prompt("n sonni kirit");
+// let n = +prompt("n sonni kirit");
 
-let sign = function (){
-    if(n > 0){
-        alert("1");
-    }else if (n < 0) {
-        alert("-1");
-    }else{
-        alert("0")
-    }
-}
-sign()
+// let sign = function (){
+//     if(n > 0){
+//         alert("1");
+//     }else if (n < 0) {
+//         alert("-1");
+//     }else{
+//         alert("0")
+//     }
+// }
+// sign()
+
+
+
+
+
+
+
