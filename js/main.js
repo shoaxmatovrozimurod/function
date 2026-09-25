@@ -128,11 +128,17 @@
 
 
 // 3
-let quti = ["olma", "banan","shaftoli"];
-let check = quti.includes("uzum") ;
-if(quti.includes("uzum")){
-    alert(true);
-}else{
-    alert(false);
-}
+// let quti = ["olma", "banan","shaftoli"];
+// let check = quti.includes("uzum") ;
+// if(quti.includes("uzum")){
+//     alert(true);
+// }else{
+//     alert(false);
+// }
+
+// 4
+let box = [1, 2, 3, 4, 5, 6];
+let box1 = box.reverse(box);
+console.log( box1);
+
 
