@@ -152,9 +152,15 @@
 // console.log(arr);
 
 // 6
-let arr = [2, 4, 56, 4,23, 9, 87, 2, 1, 17,]
-let newArr = arr.filter(big => big > 10)
+// let arr = [2, 4, 56, 4,23, 9, 87, 2, 1, 17,]
+// let newArr = arr.filter(big => big > 10)
+// console.log(newArr);
+
+// 7
+let number = [1, 3, 5, 6, 3, 8, 9];
+let newArr = number.map(num => num * 3);
 console.log(newArr);
+
 
 
 
