@@ -112,6 +112,12 @@
 
 
 
+let arr = [10, 20, 30 ];
+let arr1 = [40, 50, 60];
+
+let newArr = arr.concat(arr1);
+
+console.log(newArr);
 
 
 
