@@ -143,13 +143,19 @@
 
 // 5
 
-let arr = [5, 10, 15, 20, 26];
-let arr1 = arr.shift(arr)
-let arr2 = arr.pop(arr)
+// let arr = [5, 10, 15, 20, 26];
+// let arr1 = arr.shift(arr)
+// let arr2 = arr.pop(arr)
 
-console.log(arr1);
-console.log(arr2);
-console.log(arr);
+// console.log(arr1);
+// console.log(arr2);
+// console.log(arr);
+
+// 6
+let arr = [2, 4, 56, 4,23, 9, 87, 2, 1, 17,]
+let newArr = arr.filter(big => big > 10)
+console.log(newArr);
+
 
 
 
