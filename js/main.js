@@ -111,13 +111,19 @@
 
 
 
+// 9.25
+// let arr = [10, 20, 30 ];
+// let arr1 = [40, 50, 60];
 
-let arr = [10, 20, 30 ];
-let arr1 = [40, 50, 60];
+// let newArr = arr.concat(arr1);
 
-let newArr = arr.concat(arr1);
+// console.log(newArr);
 
-console.log(newArr);
 
+// 2
+let qator = [100, 200, 300];
+let qator1 = [1, 2, 3];
+let bolim = qator.concat(qator1);
+console.log(bolim);
 
 
