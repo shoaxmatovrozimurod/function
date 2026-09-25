@@ -195,8 +195,8 @@
 // console.log(newA);
 
 // 12
-// let a = [1, 8, 3, 5, 7, 2];
-// let newA = a.some(ab => ab % 2 === 0);
-// console.log(newA);
+let a = [1, 8, 3, 5, 7, 2];
+let newA = a.some(ab => ab % 2 === 0);
+console.log(newA);
 
 
