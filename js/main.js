@@ -137,8 +137,21 @@
 // }
 
 // 4
-let box = [1, 2, 3, 4, 5, 6];
-let box1 = box.reverse(box);
-console.log( box1);
+// let box = [1, 2, 3, 4, 5, 6];
+// let box1 = box.reverse(box);
+// console.log( box1);
+
+// 5
+
+let arr = [5, 10, 15, 20, 26];
+let arr1 = arr.shift(arr)
+let arr2 = arr.pop(arr)
+
+console.log(arr1);
+console.log(arr2);
+console.log(arr);
+
+
+
 
 
