@@ -121,9 +121,18 @@
 
 
 // 2
-let qator = [100, 200, 300];
-let qator1 = [1, 2, 3];
-let bolim = qator.concat(qator1);
-console.log(bolim);
+// let qator = [100, 200, 300];
+// let qator1 = [1, 2, 3];
+// let bolim = qator.concat(qator1);
+// console.log(bolim);
 
+
+// 3
+let quti = ["olma", "banan","shaftoli"];
+let check = quti.includes("uzum") ;
+if(quti.includes("uzum")){
+    alert(true);
+}else{
+    alert(false);
+}
 
