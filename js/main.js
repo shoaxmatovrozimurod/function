@@ -157,13 +157,46 @@
 // console.log(newArr);
 
 // 7
-let number = [1, 3, 5, 6, 3, 8, 9];
-let newArr = number.map(num => num * 3);
-console.log(newArr);
+// let number = [1, 3, 5, 6, 3, 8, 9];
+// let newArr = number.map(num => num * 3);
+// console.log(newArr);
 
+// 8
+// let names = ["farud", "ali", "vali"]
+// let newArr = names.map(name => name [0].toUpperCase() + name.slice(1))
+// console.log(newArr);
 
+// 9
+// let box = [{
+//         id: 1,
+//         name: "Ali"
+//     },
+//     {
+//         id: 2,
+//         name: "Nozim"
+//     },
+//     {
+//         id: 3,
+//         name: "Vali"
+//     }
+// ]
+// let poisk = box.find (key => key.id === 2);
+// console.log(poisk)
 
+// 10
 
+// let arr = [2, 3, 4, -5, -3, 9];
+// let newArr = arr.findIndex(dec => dec < 0);
+// console.log(newArr);
 
+// 11
+// let a = [2, 4, 6, 9, 8];
+// let newA = a.every(ba => ba % 2 === 0)
+// console.log(newA);
+
+// 12
+// let a = [1, 8, 3, 5, 7, 2];
+// let newA = a.some(ab => ab % 2 === 0);
+// console.log(newA);
 
 
